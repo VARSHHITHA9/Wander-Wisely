@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 58vh;
+  width: 94%;
+  margin: 4vh 5vb;
+  /* border: #ce4257 solid 3px; */
+}
+.attraction-title {
+  color: #343a40;
+  font-size: 5vh;
+  font-weight: 600;
+  padding: 0.3% 1%;
+  text-transform: uppercase; 
+  
+}
+.main-body {
+  display: flex;
+  /* border: #ce4257 solid 3px; */
+}
+.attraction-title > span {
+  font-size: 3vh;
+}
+.image {
+  height: 45vh;
+  width: 75vb;
+  padding: 1px;
+}
+.description {
+  padding: 0.5vh 4vb;
+}
+
+.description > p {
+  font-size: 2vh;
+  font-weight: 400;
+}
+
+/* hotels and dinning and map */
+
+.for-stays-dining {
+  height: 119vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mini-map {
+  align-items: center;
+  padding: 4% 2%;
+}
+
+.mini-map > iframe {
+  width: 425px;
+  height: 700px;
+  /* padding: 2% 2%; */
+  margin-top: 4%;
+  border: #e5e6e4 1px solid;
+  border-radius: 8px;
+}
+
+.near-hotels,
+.near-dinings {
+  width: 112vb;
+  height: 49vh;
+  display: flex;
+
+}
+.for-hotels, .for-dining{
+    padding: 0% 2% 2% 4%;
+  }
+
+.for-dining > h2{
+  padding: 0% 0% 1% 2%;
+}
+.for-hotels > h2{
+    padding: 0% 0% 1% 2%;
+}
+
+.stay,
+.dine {
+  height: 48vh;
+  width: 36vb;
+  /* border: #ce4257 solid 3px; */
+  border: #b8bdb5 solid 1px;
+  border-radius: 9px;
+  text-align: center;
+}
+.stay-image,
+.dine-image {
+  height: 25vh;
+  width: 34vb;
+  margin: 2%;
+  border: 1px solid #d5ccc7;
+  align-items: center;
+  border-radius: 7px 7px 2px 2px;
+  background-image: cover;
+}
+
+.stay > h5 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.stay > p {
+  text-align: center;
+  padding: 1% 1%;
+}
+.stay > a {
+  display: inline-block;
+  width: 10vb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dine > h5 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .dine > p {
+    text-align: center;
+    padding: 1% 1%;
+  }
+  .dine > a {
+    display: inline-block;
+    width: 10vb;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

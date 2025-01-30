@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 63vh;
+  width: 94%;
+  margin: 3vh 5vb 1vh 5vb;
+  /* border: #ce4257 solid 3px; */
+}
+.attraction-title {
+  color: #343a40;
+  font-size: 5vh;
+  font-weight: 600;
+  padding: 0.3% 1%;
+  text-transform: uppercase; 
+  
+}
+.main-body {
+  display: flex;
+  /* bordser: #ce4257 solid 3px; */
+}
+.attraction-title > span {
+  font-size: 3vh;
+  padding: 2vh 1vb;
+}
+.image {
+  height: 90%;
+  width: 85%;
+  padding: 1px;
+  
+}
+
+.mySwiper{
+  height: 60vh;
+  width: 100vb;
+  /* padding: 1px; */
+  
+}
+.description {
+  padding: 1vh 3vb;
+  height: 57vh;
+  width: 70vb;
+  font-size: 2vh;
+  /* border: #ce4257 solid 3px; */
+}
+
+.description > p {
+  font-size: 2vh;
+  font-weight: 400;
+}
+.description-title{
+  /* padding: 1vh 2vb; */
+  /* margin-top: -1vh; */
+}
+
+
+
+
+.objectives{
+  padding: 1vh 1vb;
+  width: 90%;
+  /* border: #ce4257 solid 3px; */
+  margin: 10vh 10vh 1vh 10vh;
+  
+}
+.list-of-objectives{
+  display: flex;
+  padding: 1vh 0vb;
+  width: 100%;
+}
+
+
+.sets{
+  width: 35vh;
+  /* border: #343a40 solid 3px; */
+  padding: 1% 1%;
+  margin: 15px 0px 0px 15px;
+}
+
+.mi-map, .contact {
+  align-items: center;
+  /* border: #343a40 solid 3px; */
+  padding: 1% 2%;
+  margin: 2px 15px 0px 15px;
+  height: 60vh;
+  
+}
+.mi-map {
+  font-size: 4vh;
+  font-weight: 300;
+  padding: 1% 2%;
+}
+.contact > p{
+  font-size: 4vh;
+  font-weight: 300;
+  padding: 4% 2%;
+  margin: 2vh 0 0 2vb;
+}
+.mi-map > iframe {
+  width: 560px;
+  height: 360px;
+  /* padsding: 2% 2%; */
+  /* margin-top: 2%; */
+  border: #e5e6e4 0.2px solid;
+  border-radius: 8px;
+  /* border: 2px solid #000; */
+}
+
+
+.head-highlights{
+  color: black;
+  display: block;
+  font-weight: 700px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  /* padding: 40px 0px; */
+  position: relative;
+}
+
+.head-highlights::before{
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 47vb;
+  background-color: rgb(132, 0, 255);
+  height: 3px;
+  width: 149px;
+}
+
+.head-highlights::after{
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 47vb;
+  background-color: rgb(132, 0, 255);
+  height: 3px;
+  width: 149px;
+}
